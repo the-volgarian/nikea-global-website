@@ -1,0 +1,118 @@
+.containers-page {
+    padding: 40px 20px;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    min-height: 100vh;
+    
+  }
+  
+  .containers-title {
+    text-align: center;
+    font-size: 2rem;
+    background-color: #1a1a1a;
+    margin-bottom: 40px;
+    color: #ffffff;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    max-width: 800px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .containers-title:hover {
+    transform: scale(1.02);
+  }
+  
+  .container-card {
+    background-color: #1a1a1a;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    max-width: 800px;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .container-info {
+    padding: 20px;
+ 
+  }
+  
+  .container-info h3 {
+    margin-top: 0;
+    margin-bottom:12px;
+    font-size: 1.3rem;
+    color: #fff;
+
+  }
+  
+  .container-info p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+
+  .container-table-wrapper {
+    overflow-x: auto;
+  }
+  
+  .container-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .container-table th,
+  .container-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .container-table th {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .container-table td {
+    color: #ccc;
+  }
+  
+  @media (max-width: 600px) {
+    .container-info h3 {
+      font-size: 1.1rem;
+    }
+  
+    .container-info p {
+      font-size: 0.95rem;
+    }
+  
+    .container-table th,
+    .container-table td {
+      font-size: 0.85rem;
+      padding: 8px;
+    }
+  }
+  
+.container-image {
+    width: 280px;
+    height: 236px;
+    margin-top: 30px;
+  }
