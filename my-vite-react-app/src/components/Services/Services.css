@@ -1,0 +1,106 @@
+.services-container {
+    background-color: #111;
+    border-radius: 20px;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    box-shadow: 0 8px 20px #000000b3;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.services-container:hover {
+    transform: scale(1.01);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.9);
+}
+
+.services-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-shadow: 0 1px 3px rgba(255, 255, 255, 0.08);
+}
+
+.service-card {
+    background-color: #1a1a1a;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+    transition: all 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 102, 255, 0.3);
+}
+
+.service-heading {
+    display: flex;
+    align-items: center;
+    color: #66aaff;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.service-heading svg {
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.service-text {
+    color: #e0e0e0 !important;
+    font-size: 1.1rem !important;
+    line-height: 1.6 !important;
+    margin-bottom: 10px !important;
+    text-align: left !important;
+}
+
+.service-list {
+    padding-left: 20px;
+    color: #dddddd !important;
+    font-size: 1rem;
+}
+
+.service-list li {
+    margin-bottom: 6px;
+    text-align: left;
+    color: rgb(146, 146, 146);
+}
+
+.cta-box {
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #333;
+}
+
+.cta-box h3 {
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.cta-box p {
+    color: #dddddd;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #0f62fe;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #084bc0;
+}
